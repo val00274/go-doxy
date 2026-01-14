@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/dennwc/go-doxy/xmlfile"
-	"github.com/dennwc/go-doxy/xmlindex"
+	"github.com/val00274/go-doxy/xmlfile"
+	"github.com/val00274/go-doxy/xmlindex"
 )
 
 //go:generate doxygen Doxyfile
