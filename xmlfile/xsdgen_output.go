@@ -590,6 +590,7 @@ type MemberdefType struct {
 	Definition          string                 `xml:" definition,omitempty" json:",omitempty"`
 	Argsstring          string                 `xml:" argsstring,omitempty" json:",omitempty"`
 	Name                string                 `xml:" name"`
+	Qualifiedname       string                 `xml:" qualifiedname,omitempty" json:",omitempty"`
 	Read                string                 `xml:" read,omitempty" json:",omitempty"`
 	Write               string                 `xml:" write,omitempty" json:",omitempty"`
 	Bitfield            string                 `xml:" bitfield,omitempty" json:",omitempty"`
