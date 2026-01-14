@@ -605,6 +605,7 @@ type MemberdefType struct {
 	Location            LocationType           `xml:" location"`
 	References          []ReferenceType        `xml:" references,omitempty" json:",omitempty"`
 	Referencedby        []ReferenceType        `xml:" referencedby,omitempty" json:",omitempty"`
+	ID                  string                 `xml:"id,attr,omitempty" json:",omitempty"`
 	Kind                DoxMemberKind          `xml:"kind,attr,omitempty" json:",omitempty"`
 	Prot                DoxProtectionKind      `xml:"prot,attr,omitempty" json:",omitempty"`
 	Static              DoxBool                `xml:"static,attr,omitempty" json:",omitempty"`
